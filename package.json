@@ -11,15 +11,22 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.1.4",
+    "@esbuild/darwin-x64": "^0.17.19",
+    "@rumess/react-flip-countdown": "^1.2.6",
+    "animate.css": "^4.1.1",
     "antd": "^4.16.1",
+    "framer-motion": "^10.12.16",
     "momentjs": "^2.0.0",
     "react": "^18.2.0",
     "react-countdown": "^2.3.5",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "scrollreveal": "^4.0.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
+    "@types/scrollreveal": "^0.0.8",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",

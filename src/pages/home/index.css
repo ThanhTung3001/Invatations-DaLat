@@ -41,3 +41,20 @@
   overflow: hidden;
   line-height: 0;
 }
+
+.flip-countdown-title{
+  color: white;
+  font-weight: bold;
+}
+.flip-countdown{
+  text-align: center;
+  perspective: 400px;
+  margin: 0 auto;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --background-color: white !important;
+  --background-bottom-color: white !important;
+  --text-color: #393939 !important;
+  --text-bottom-color: #393939 !important;
+}
