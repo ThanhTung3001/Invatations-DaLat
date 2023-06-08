@@ -1,10 +1,9 @@
 
-import'./index.css';
+import './index.css';
 
 export default function BusIcon() {
   return (
-     <div className="bg-bus">
-
-     </div>
+    <div className="bg-bus mb-1">
+    </div>
   )
 }
