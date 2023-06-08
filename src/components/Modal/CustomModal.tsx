@@ -5,10 +5,10 @@ export default function CustomModal({ zIndex, title, open, onOk, onCancel, child
         <Modal
             zIndex={zIndex}
             title={title}
-            visible={open}
+            open={open}
             onOk={onOk}
             onCancel={onCancel}
-
+        // modalRender={children}
         >
             {children}
         </Modal>

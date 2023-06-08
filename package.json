@@ -15,14 +15,15 @@
     "@material-tailwind/react": "^2.0.1",
     "@rumess/react-flip-countdown": "^1.2.6",
     "animate.css": "^4.1.1",
-    "antd": "^4.16.1",
+    "antd": "^5.0.0-rc.1",
     "framer-motion": "^10.12.16",
     "momentjs": "^2.0.0",
     "react": "^18.2.0",
     "react-countdown": "^2.3.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
-    "scrollreveal": "^4.0.9"
+    "scrollreveal": "^4.0.9",
+    "semantic-ui-react": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

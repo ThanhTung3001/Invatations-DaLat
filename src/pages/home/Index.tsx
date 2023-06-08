@@ -129,7 +129,7 @@ export default function Index() {
         top: 0,
         behavior: "smooth",
       })} className="fixed lg:bottom-8 right-8 z-10 bottom-20">
-        <Progress type="circle" percent={currentPos} width={60} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} format={(percent) => <div className="flex justify-center"><BsArrowUp className="font-bold" size={24} color="red" /></div>} showInfo={true} />
+        <Progress type="circle" percent={currentPos} width={60} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} format={() => <div className="flex justify-center"><BsArrowUp className="font-bold" size={24} color="red" /></div>} showInfo={true} />
       </div> : <></>}
       <div className="first_page" ref={firstPage}>
         <SessionFirstPage />

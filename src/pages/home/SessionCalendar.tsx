@@ -106,7 +106,7 @@ export default function SessionCalendar() {
           <>
             <ul className='container p-0'>
               {
-                datePopup.map((e, index) =>
+                datePopup.map((e) =>
                   <li className="flex">
                     <p className="timer w-1/3 text-primary text-lg font-bold">
                       {e.time}
